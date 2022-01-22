@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/tap0212/reactCustomHooks#readme",
   "devDependencies": {
+    "@types/react": "^17.0.38",
     "prettier": "^2.5.1",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
@@ -36,5 +37,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
